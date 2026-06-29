@@ -1,0 +1,6 @@
+{
+  "name": "Veronica AI Task Companion",
+  "description": "An intelligent, interactive AI productivity companion named Veronica with natural visual reactions, goal and habit tracking, voice-enabled intelligence, smart scheduling, and context-aware reminders.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
