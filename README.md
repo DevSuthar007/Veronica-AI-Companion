@@ -4,10 +4,7 @@
 
 ### *The productivity companion that actually gives a damn.*
 
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Click%20Here-7C3AED?style=for-the-badge)](https://veronica-ai-15063223082.asia-southeast1.run.app/)
-[![Built With](https://img.shields.io/badge/Built%20With-Google%20Gemini-4285F4?style=for-the-badge&logo=google)](https://ai.google.dev/)
-[![Deployed On](https://img.shields.io/badge/Deployed%20On-Cloud%20Run-34A853?style=for-the-badge&logo=googlecloud)](https://cloud.google.com/run)
-[![Hackathon](https://img.shields.io/badge/Vibe2Ship-Hackathon%202026-FF6B6B?style=for-the-badge)](/)
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Try%20Veronica%20Now-7C3AED?style=for-the-badge)](https://veronica-ai-15063223082.asia-southeast1.run.app/)
 
 <br/>
 
@@ -40,7 +37,7 @@ She's a **character** who reacts to how well you're keeping your commitments —
 | 🎙️ | **Voice + Mood System** | Veronica speaks — her tone shifts between Happy, Neutral, Worried & Angry |
 | 📝 | **AI Note Polisher** | Messy brain-dump → clean, structured markdown document in one click |
 | ⏱️ | **Study Sprint Mode** | Focused work blocks with direct encouragement to keep you locked in |
-| 🛡️ | **Offline Fallback** | Three-tier AI — works even when the cloud doesn't |
+| 🛡️ | **Offline Fallback** | Three-tier AI architecture — works even when the cloud doesn't |
 
 ---
 
@@ -127,15 +124,19 @@ Then open [http://localhost:3000](http://localhost:3000) and meet Veronica. 💜
 
 ```
 Veronica-AI-Companion/
-├── 📁 src/
-│   ├── 📁 components/   # UI components & Veronica avatar
-│   ├── 📁 pages/        # App views
-│   └── 📁 lib/          # Utilities & state logic
-├── 📁 assets/           # Static assets
-├── 🔧 server.ts         # Express backend + AI routing
-├── 🌐 index.html
-├── 📦 package.json
-└── ⚙️ tsconfig.json
+├── 📁 assets/
+│   └── 📁 .aistudio/        # Google AI Studio config
+├── 📁 src/                   # React frontend source
+├── 🔧 server.ts              # Express backend + AI routing
+├── 🌐 index.html             # App entry point
+├── ⚙️  vite.config.ts        # Vite configuration
+├── ⚙️  tsconfig.json         # TypeScript configuration
+├── 📦 package.json           # Dependencies
+├── 📦 package-lock.json      # Lockfile
+├── 🗂️  PROJECT.md            # Project documentation
+├── 🗂️  metadata.json         # App metadata
+├── 🔒 .env.example           # Environment variables template
+└── 🚫 .gitignore
 ```
 
 ---
