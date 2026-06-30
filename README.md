@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 Veronica AI 💜
+# 🤖 Veronica Task Companion 💜
 
 ### *The productivity companion that actually gives a damn.*
 
